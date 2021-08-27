@@ -4,19 +4,12 @@ menu-position: 0
 emote: 🏡
 ---
 
-## Welcome to Poole
+## hi!
 
-In Poole you write your pages in [markdown][md]. It's easier to write
-markdown than HTML.
+I'm Arul Kolla, a high school junior attending Flintridge Preparatory School.
 
-Poole is made for simple websites you just want to get done, without installing
-a bunch of requirements and without learning a template engine.
+My interests academically typically tend to center around combinatorial algorithms, including but not limited to: combinatorial game theory, graph theory and data structures & algorithms. In addition, I'm also actively interested in computational linguistics (and linguistics in general.) I also love sharing my passions with others.
 
-In a build, Poole copies every file from the *input* directory to the *output*
-directory. During that process every markdown file (ending with *md*, *mkd*,
-*mdown* or *markdown*) is converted to HTML using the project's `page.html`
-as a skeleton.
+Outside of academics, I enjoy board games, doing competitive programming, taking part in puzzle hunts, conlanging, writing problems (for both math contests and competitive programming), and neography.
 
-Also, here is some $\LaTeX$: $\sum_{i=1}^{100} i = 5050$.
-
-[md]: http://daringfireball.net/projects/markdown/
+My email is `arulkolla (at) gmail (dot) com`. You can also find me on [GitHub](https://github.com/arulkolla/ "GitHub").
