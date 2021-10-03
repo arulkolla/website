@@ -18,8 +18,8 @@
     <!--Imports end-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
     <title>Arul Kolla</title>
-    <meta name="description" content="{{ hx(page.get("description", "Arul Kolla")) }}" />
-    <meta name="keywords" content="{{ hx(page.get("keywords", "poole")) }}" />
+    <meta name="description" content="Arul Kolla" />
+    <meta name="keywords" content="poole" />
     <style type="text/css">
         body {
             font-family: 'Fira Sans', sans-serif;
@@ -99,29 +99,20 @@
     <div id="box">
     <div id="header">
          <h1 id="main-title">Arul Kolla</h1>
-         <!-- <h2>{{ hx(page["title"]) }}</h2> -->
+         <!-- <h2>Raylight</h2> -->
     </div>
     <div id="menu">
-    <!--%
-        mpages = [p for p in pages if "menu-position" in p]
-        mpages.sort(key=lambda p: int(p["menu-position"]))
-        entry = '<span class="%s"><a href="%s">%s</a></span>'
-        for p in mpages:
-            if "indent" in p:
-                open_tag = r'<h5>&nbsp; &bullet; &nbsp;'
-                close_tag = r'</h5>'
-            else:
-                open_tag = '<h4>'
-                close_tag = '</h4>'
-            if p["title"] == page["title"]:
-                entry = open_tag + '<strong>%s</strong>' + close_tag
-                print(entry % (hx(p["title"])))
-            else:
-                entry = open_tag + '<a href="%s">%s</a>' + close_tag
-                print(entry % (p["url"], hx(p["title"])))
-    %-->
+    <h4><a href="/index.html">Home</a></h4>
+<h4><a href="/gamifying.html">Gamifying Education</a></h4>
+<h5>&nbsp; &bullet; &nbsp;<a href="/motivation.html">Mission Statement</a></h5>
+<h5>&nbsp; &bullet; &nbsp;<a href="/blocks.html">Blocks</a></h5>
+<h5>&nbsp; &bullet; &nbsp;<a href="/book.html">Taking Aim</a></h5>
+<h5>&nbsp; &bullet; &nbsp;<a href="/mktc.html">Math Kangaroo Training Camp</a></h5>
+<h5>&nbsp; &bullet; &nbsp;<a href="/math-circles.html">Math Circles</a></h5>
+<h5>&nbsp; &bullet; &nbsp;<strong>Raylight</strong></h5>
+<h5>&nbsp; &bullet; &nbsp;<a href="/problem-writing.html">Problem-writing</a></h5>
     </div>
-    <div id="content">{{ __content__ }}</div>
+    <div id="content"><p><a href="https://raylight.weebly.com/">Raylight</a></p></div>
     </div>
     <div id="footer">
         built with help from <a href="http://bitbucket.org/obensonne/poole">Poole 🎱</a>
