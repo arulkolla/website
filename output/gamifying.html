@@ -1,6 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript">
         MathJax = {
             tex: {
@@ -15,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Imports end-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
     <title>Arul Kolla</title>
@@ -29,14 +32,13 @@
             color: #f9f9fa;
             background-color: #25003e;
         }
-        div#box {
-        }
         div#header, div#menu, div#content, div#footer {
             padding: 1em;
         }
         div#menu {
             background-color: #440071;
             padding: 0.6em 0 0.6em 0;
+            font-size: x-small;
         }
         #menu span {
             font-weight: bold;
@@ -69,7 +71,7 @@
         }
         code {
             color: #30e60b;
-            font-size: inherit;
+            /* font-size: inherit; */
             background: #0c0c0d;
             word-wrap: break-word;
             box-decoration-break: clone;
@@ -93,32 +95,67 @@
         #main-title {
             font-family: 'JetBrains Mono', monospace;
         }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* width: 50%; */
+        }
     </style>
 </head>
 <body>
-    <div id="box">
     <div id="header">
-         <h1 id="main-title">Arul Kolla</h1>
-         <!-- <h2>Gamifying Education</h2> -->
+        <h1 id="main-title">Arul Kolla</h1>
+        <!-- <h2>Gamifying Education</h2> -->
     </div>
-    <div id="menu">
-    <h4><a href="/index.html">Home</a></h4>
-<h4><strong>Gamifying Education</strong></h4>
-<h5>&nbsp; &bullet; &nbsp;<a href="/motivation.html">Mission Statement</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/blocks.html">Blocks</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/book.html">Taking Aim</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/mktc.html">Math Kangaroo Training Camp</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/math-circles.html">Math Circles</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/raylight.html">Raylight</a></h5>
-<h5>&nbsp; &bullet; &nbsp;<a href="/problem-writing.html">Problem-writing</a></h5>
-    </div>
-    <div id="content"><h2>Gamifying Education</h2>
-<p>Gamifying Education is my passion project in which I endeavour to spread my love of creative problem-solving skills. I have started many projects like math competitions, math circles, creating games, and books, and the money I collected through these projects is going back to the schools and students who are in need (like giving 3D printers to schools and paying kids' tuition fees).</p>
-<p>Have you ever worked on a problem, not been able to solve it, and looked at the solution, only to wonder how you didn't see the solution? Often times when learning mathematics, we are taught that there is only one way to apply a certain concept because we only want to <em>find</em> a solution. However, the creativity in math comes from the ability to overcome fixations while solving a problem. </p>
-<p>Being able to come up with original ideas on the spot while solving a problem is a key idea behind creative problem solving. Approaching problems with a questioning attitude, and inventing new uses for concepts and formulas are all essential tools while tackling at a problem. Problem solving is more than arriving at a solution; instead, it involves the process of thinking creatively.</p>
-<p>Beyond mathematics, being able to solve problems by approaching them from multiple angles is an extremely useful skill in day-to-day life. The perseverance you gain from working on math problems can help build your grit for real-world problems, too. </p>
-<p>Creative problem solving capabilities will enable children to create potential solutions for challenges that do not exist today, which will be of great need to employers of the future. In order to succeed students will need to build their ability to <em>solve problems</em>, beyond merely possessing the newest technologies, applications, and even advanced expertise.</p>
-<p>By practicing your creative problem solving skills, you are <em>both</em> sharpening your ability to solve math and to overcome challenges. </p></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div id="menu">
+                <h6><a href="/index.html">Home</a></h6>
+<h6><strong>Gamifying Education</strong></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/motivation.html">Mission Statement</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/blocks.html">Blocks</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/book.html">Taking Aim</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/mktc.html">Math Kangaroo Training Camp</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/math-circles.html">Math Circles</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/raylight.html">Raylight</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/problem-writing.html">Problem-writing</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/fundraising.html">Fundraising</a></h6>
+                </div>
+            </div>
+            <div class="col-9">
+                <div id="content"><h2>Gamifying Education</h2>
+<p>Gamifying Education is my passion project in which I endeavour to spread my love of creative problem-solving skills. I have started many projects like math competitions, math circles, creating games, and books. I hope to empower students with creative problem-solving skills.</p>
+<ul>
+<li>Raylight<ul>
+<li>A math contest for elementary school students</li>
+<li>Reached ~<strong>10</strong> kids </li>
+</ul>
+</li>
+<li>Math Circles<ul>
+<li>Teaching creative problem solvings at local schools and APTA (gr. 2-8)</li>
+<li>Reached ~<strong>100</strong> kids </li>
+</ul>
+</li>
+<li>Blocks <ul>
+<li>Online game for creative problem solving skills (gr. 2-8)</li>
+<li>Reached ~<strong>100</strong> kids </li>
+</ul>
+</li>
+<li>Taking Aim <ul>
+<li>Book containing various topics in creative problem solving (gr. 2-8) </li>
+<li>Reached ~<strong>100</strong> kids (<em>projected</em>) </li>
+</ul>
+</li>
+<li>Creating Official Math Kangaroo Problems <ul>
+<li>Wrote official questions for the International Math Kangaroo</li>
+<li>Reached ~<strong>50,000</strong> kids in the world </li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
     </div>
     <div id="footer">
         built with help from <a href="http://bitbucket.org/obensonne/poole">Poole 🎱</a>
@@ -127,5 +164,6 @@
         &middot;
         licensed as <a href="http://creativecommons.org/licenses/by-sa/3.0">CC-SA ©️</a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
