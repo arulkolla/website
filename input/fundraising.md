@@ -14,5 +14,6 @@ As a result, I have donated back to my community to encourage more students to h
 
 - I donated $\$1000$ to the [APTA Student Education Program](https://ap-ta.org/about-asep/), a program that supports underpriveleged students in need of an education.
 - I donated $\$200$ to the [Institute for Educational Advancement](https://educationaladvancement.org/), a non-profit organization that provides high-level education to gifted students.
+- I donated $\$1000$ to the [UCLA Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/) since 2019.
 
 <img src="img/asep.jpg" width="400" class="center"/>
