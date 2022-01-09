@@ -17,3 +17,5 @@ As a result, I have donated back to my community to encourage more students to h
 - I donated $\$1000$ to the [UCLA Olga Radko Endowed Math Circle](https://circles.math.ucla.edu/circles/) since 2019.
 
 <img src="img/asep.jpg" width="400" class="center"/>
+<img src="img/ymca.png" width="400" class="center"/>
+<img src="img/seema.jpeg" width="400" class="center"/>
