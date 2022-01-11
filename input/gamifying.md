@@ -5,20 +5,22 @@ title: Gamifying Education
 
 ## Gamifying Education
 
-Gamifying Education is my passion project in which I endeavour to spread my love of creative problem-solving skills. I have started many projects like math competitions, math circles, creating games, and books. I hope to empower students with creative problem-solving skills.
+The Gamifying Education project seeks to raise awareness of creative problem-solving skills through **various media**, allowing students to learn to solve problems in a **fun and engaging way** and empowering teachers to share these skills through **activism and advocacy**. [View the full mission statement.](/motivation.html)
+
+A brief overview of the project:
 
 - Raylight
     - A math contest for elementary school students
-    - Reached ~**10** kids 
+    - Reached ~**10** students 
 - Math Circles
     - Teaching creative problem solvings at local schools and APTA (gr. 2-8)
-    - Reached ~**100** kids 
+    - Reached ~**100** students 
 - Blocks 
     - Online game for creative problem solving skills (gr. 2-8)
-    - Reached ~**100** kids 
+    - Reached ~**100** students 
 - Taking Aim 
     - Book containing various topics in creative problem solving (gr. 2-8) 
-    - Reached ~**100** kids (*projected*) 
+    - Reached ~**100** students
 - Creating Official Math Kangaroo Problems 
     - Wrote official questions for the International Math Kangaroo
-    - Reached ~**50,000** kids in the world 
+    - Reached ~**100,000** students across the world 
