@@ -1,9 +1,9 @@
 
 menu-position: 1
-title: Gamifying Education
+title: The Gamifying Education Initiative
 ---
 
-## Gamifying Education
+## The Gamifying Education Initiative
 
 The Gamifying Education project seeks to raise awareness of creative problem-solving skills through **various media**, allowing students to learn to solve problems in a **fun and engaging way** and empowering teachers to share these skills through **activism and advocacy**. [View the full mission statement.](/motivation.html)
 

@@ -102,6 +102,46 @@
             margin-right: auto;
             /* width: 50%; */
         }
+        .testimonial-quote blockquote {
+            background: none;
+            font-size: 19px;
+            line-height: 1.4 !important;
+            margin: 0;
+            position: relative;
+            z-index: 600;
+        }
+
+        .testimonial-quote blockquote * {
+            box-sizing: border-box; 
+        }
+
+        .testimonial-quote blockquote p {
+            line-height: 1.4 !important;
+        }
+
+        .testimonial-quote blockquote p:first-child:before {
+            content: '\201C';
+            color: #6200a4;
+            font-size: 7.5em;
+            font-weight: 700;
+            position: absolute;
+            top: -.3em;
+            left: 0em;    
+            z-index: -300;
+        }
+
+        .testimonial-quote cite {
+            display: block;
+            font-size: .8em; 
+        }
+        
+        .testimonial-quote cite span {
+            font-size: 1em;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body>
@@ -114,8 +154,8 @@
             <div class="col-3">
                 <div id="menu">
                 <h6><a href="/index.html">Home</a></h6>
-<h6><a href="/gamifying.html">Gamifying Education</a></h6>
-<h6>&nbsp; &bullet; &nbsp;<strong>Mission Statement</strong></h6>
+<h6><a href="/gamifying.html">The Gamifying Education Initiative</a></h6>
+<h6>&nbsp; &bullet; &nbsp;<strong><a href="/motivation.html">Mission Statement</a></strong></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/blocks.html">Blocks</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/book.html">Taking Aim</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/mktc.html">Math Kangaroo Training Camp</a></h6>
