@@ -148,7 +148,7 @@
 <body>
     <div id="header">
         <h1 id="main-title">Arul Kolla</h1>
-        <!-- <h2>Blocks</h2> -->
+        <!-- <h2>blog</h2> -->
     </div>
     <div class="container">
         <div class="row">
@@ -157,7 +157,7 @@
                 <h6><a href="/index.html">Home</a></h6>
 <h6><a href="/gamifying.html">The Gamifying Education Initiative</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/motivation.html">Mission Statement</a></h6>
-<h6>&nbsp; &bullet; &nbsp;<strong><a href="/blocks.html">Blocks</a></strong></h6>
+<h6>&nbsp; &bullet; &nbsp;<a href="/blocks.html">Blocks</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/book.html">Taking Aim</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/mktc.html">Math Kangaroo Training Camp</a></h6>
 <h6>&nbsp; &bullet; &nbsp;<a href="/math-circles.html">Math Circles</a></h6>
@@ -168,14 +168,37 @@
                 </div>
             </div>
             <div class="col-9">
-                <div id="content"><p>Here is the link to my web game <a href="https://blocks-ak.web.app/">Blocks</a>, made to encourage creative problem-solving skills in which you have to put numbers into blanks to satisfy equations. Although it seems simple on the surface, there is one twist that makes Blocks much more intricate: you only have a limited bank of numbers, so although you might figure out how to fill in each equation individually, it is much more difficult to make them all correct simultaneously.</p>
-<p>Blocks has been featured on the Institute for Educational Advancement, Math Kangaroo, and Mathigon.</p>
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D10161560955639899%26id%3D124767219898&show_text=false&width=500" width="500" height="253" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FIEAgifted%2Fposts%2F10158198792685999&show_text=false&width=500" width="500" height="285" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a cool number puzzle game created by high school student Arul Kolla from California: <a href="https://t.co/KLW6lAzqKp">https://t.co/KLW6lAzqKp</a> <a href="https://t.co/jaAqNiVBzF">pic.twitter.com/jaAqNiVBzF</a></p>&mdash; Mathigon (@MathigonOrg) <a href="https://twitter.com/MathigonOrg/status/1290762776617590790?ref_src=twsrc%5Etfw">August 4, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                <div id="content"><h2>Poole trolls me for a month</h2>
+<h4><em>Local man realizes that Markdown parsers actually parse Markdown</em></h4>
+<p><em>Posted on
+2022 August 21</em></p>
+<p>As you might know, this website is built on <a href="https://hg.sr.ht/~obensonne/poole">Poole</a>. Poole is a simple static site generator that lets you write your content in Markdown and it will be converted to HTML and served up as a static website. One benefit of this is that Markdown supports footnotes<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, which are basically nice alternatives to slightly-more-invasive parentheticals.</p>
+<p>As such, it only made sense that Poole would magically make footnotes work; for me, Poole was some mystical black box that took Markdown as input and creates a website as output. It didn't.</p>
+<p>As it turns out, Poole is actually just a neat <em>package</em> for the inbuilt Python Markdown-to-HTML parser to work its magic under. Poole neatly wraps everything up in a bow, but it's the Python underneath doing the actual Markdown-to-HTML processing.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> I ended up ragequitting after a very long StackOverflow session<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, only to come back a month later and decide to actually look into what Poole was doing.</p>
+<p>It turns out Poole just outsources its work to the <code>markdown</code> package, which converts it to HTML.<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> And the <code>footnotes</code> option was missing from this conversion. One change to line 613 fixes it:</p>
+<pre><code>page.html = markdown.Markdown(extensions=['footnotes']).convert(out)
+</code></pre>
+<p>As they say, web development is web development.<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>This is a footnote. Yay!&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>I also thought Poole was magic for doing this in less than 1000 lines. Then I realized it used a Python library, and the magic disappeared.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Unsurprisingly, there is little documentation for a ten-year-old static website generator.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Actually, I then thought that <code>markdown</code> was the magical one, somehow turning Markdown into HTML through the magic of Python shenanigans. Then I realized that this is, like, what a Markdown parser does. Yes, I know, it seems so obvious in retrospect, but it took me one month to realize this. Oops.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Nobody says this.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></div>
             </div>
         </div>
     </div>
