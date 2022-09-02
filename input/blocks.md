@@ -6,7 +6,7 @@ indent: 1
 
 Here is the link to my web game [Blocks](https://blocks-ak.web.app/), made to encourage creative problem-solving skills in which you have to put numbers into blanks to satisfy equations. Although it seems simple on the surface, there is one twist that makes Blocks much more intricate: you only have a limited bank of numbers, so although you might figure out how to fill in each equation individually, it is much more difficult to make them all correct simultaneously.
 
-Blocks has been featured on the Institute for Educational Advancement, Math Kangaroo, and Mathigon.
+Blocks has been featured on [Math Playground](https://www.mathplayground.com/problem_solving_blocks.html) (which receives over 1.4 million views monthly), Institute for Educational Advancement, Math Kangaroo, and Mathigon.
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D10161560955639899%26id%3D124767219898&show_text=false&width=500" width="500" height="253" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
