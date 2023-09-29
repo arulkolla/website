@@ -91,6 +91,8 @@ The best part of the game, in my opinion, is the choice to not have your partner
 
 How all of this made your partner feel. How much they learned. It's something that can *only* be done through a game, and for this I think this game is genius.
 
+<img src="img/thank-you-eevee.png" width="400" class="center"/>
+
 #### This Game is Genius
 
 This is a game. The entire game makes it clear that this is a game. I never felt like I was a Pokémon; I still felt like I was a human in a Pokémon body. Too many modern games, I think, try to make you immersed in their world. Which is fine, but in this way you lose the medium of the work.
