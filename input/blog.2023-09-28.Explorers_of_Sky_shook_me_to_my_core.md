@@ -45,7 +45,7 @@ First I have to talk about the end, because it's just too good. Please listen to
 
 <iframe  width="560"  height="315"  src="https://www.youtube-nocookie.com/embed/mH_Zl2Rgl5M"  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
-I never knew what being "choked up" meant before listening to this song. Now I do.
+I never knew what being "choked up" meant before listening to this song. Now I do. I can't listen to this song without my throat tightening. And I can't imagine anything else that *physically* impacted me in such a way.
 
 The song is so hauntingly beautiful, and the way it blends a gentle, soft melody with sweeping, powerful tones is unmatched. I really don't know how to describe it to anyone who hasn't played the game, but the song is so unbelievably somber yet hopeful. It captures the *feeling* you feel at the end of the game so incredibly well. 
 
@@ -80,6 +80,9 @@ And as they ride the Rainbow Stoneship away from Temporal Tower, you realize the
 #### Blowing Bubbles
 
 The very first scene of the game is your partner finding you on the beach. This is the very last scene, too. In both cases, your partner—not you—is the main focus of the scene. Because you were just guiding your partner to a better headspace, in my eyes. And it's *so nice*. Seeing the bubbles in both scenes really makes me hurt, because your partner says how they wanted to try and see the bubbles again right before you both fight Dialga. Luckily, you do get to see the bubbles again. Eventually.
+
+<img src="img/bubble.png" width="400" class="center"/>
+<p class="center">I cried seeing these again.</p>
 
 #### You Are The Human
 
