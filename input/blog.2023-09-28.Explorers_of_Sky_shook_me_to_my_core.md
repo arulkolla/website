@@ -81,7 +81,7 @@ And as they ride the Rainbow Stoneship away from Temporal Tower, you realize the
 
 The very first scene of the game is your partner finding you on the beach. This is the very last scene, too. In both cases, your partner—not you—is the main focus of the scene. Because you were just guiding your partner to a better headspace, in my eyes. And it's *so nice*. Seeing the bubbles in both scenes really makes me hurt, because your partner says how they wanted to try and see the bubbles again right before you both fight Dialga. Luckily, you do get to see the bubbles again. Eventually.
 
-<img src="img/bubble.png" width="400" class="center"/>
+<img src="img/bubble.png" width="100" class="center"/>
 <p class="center">I cried seeing these again.</p>
 
 #### You Are The Human
