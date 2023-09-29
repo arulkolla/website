@@ -6,18 +6,18 @@
 ## {{ page["post"] }}
 
 *Posted on
-
 <!--%
-
 from datetime import datetime
-
 print(datetime.strptime(page["date"], "%Y-%m-%d").strftime("%Y %B %d"))
-
 %-->*
 
 #### Preface
 
 I finished Pokémon Mystery Dungeon: Explorers of Sky. I can't stop thinking about it.
+
+<img src="img/eos.jpg" width="400" class="center"/>
+
+You will have another chance later down to stop before spoilers. If this game looks interesting to you: stay away.
 
 #### Me
 

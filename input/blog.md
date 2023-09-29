@@ -1,5 +1,5 @@
 
-menu-position: 10
+menu-position: 9
 title: Blog
 ---
 ## Archive
