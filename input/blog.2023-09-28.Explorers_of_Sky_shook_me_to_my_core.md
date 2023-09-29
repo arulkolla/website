@@ -57,7 +57,7 @@ I have never cried while listening to just music before. There's a first time fo
 
 #### The Ending Sequence
 
-The last 16 minutes of the game are below, in all their 2011-era quality. No matter, since they hit just as hard.
+The last few minutes of the game are below, in all their 2011-era quality. No matter, since they hit just as hard.
 
 <iframe  width="560"  height="315"  src="https://www.youtube-nocookie.com/embed/xX2L3YHY0J8"  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
@@ -112,9 +112,15 @@ In my eyes, I think there is a *very deliberate* artistic choice by the develope
 
 Also, the alternative would have been horribly mentally scarring for seven-year-olds, I presume.
 
+<img src="img/my-thanks.png" width="200" class="center"/>
+
+Well, Dialga, this is mine.
+
 #### Conclusion
 
-I don't know how Explorers of Sky awoke the need to write in me. I've been lazy my whole life, but for some reason, some wretched twist of fate through this game to me, I played it, and I can't stop thinking about it. Maybe in a week or so after this I'll forget all these very specific emotions I wrote above. But I will not Ever Forget this experience.
+I don't know how Explorers of Sky awoke the need to write in me. I've been lazy my whole life, but for some reason, some wretched twist of fate through this game to me, I played it, and I can't stop thinking about it. Maybe in a week or so after this I'll forget all these very specific emotions I wrote above. But this has really gotten to me in a way that I didn't think it would.
+
+The pessimistic part of me says it's because I knew I would be emotionally scarred going into it, that I placebo'd myself into it. But I know that can't be true. I really have not done anything for the past 18 years, *tried* things for the past 18 years, and you're telling me a few testimonials were enough to break that shell?
 
 A lot of people wrote that this game shaped their childhoods, who they are as a person, and the eight-hour-long(!!) video essays are only a testament to that. I honestly, *truly*, *truly* wish I had played this as a child. All of y'all are lucky for doing so. Consider it a blessing.
 
