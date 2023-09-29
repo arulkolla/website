@@ -59,7 +59,7 @@ I have never cried while listening to just music before. There's a first time fo
 
 The last 16 minutes of the game are below, in all their 2011-era quality. No matter, since they hit just as hard.
 
-<iframe  width="560"  height="315"  src="https://www.youtube-nocookie.com/embed/E2dlKNrnZ84"  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+<iframe  width="560"  height="315"  src="https://www.youtube-nocookie.com/embed/xX2L3YHY0J8"  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
 The ending is so fantastic, because Chunsoft loves to toy with my feelings. There are so many things done so well, so I'll go in chronological order.
 
